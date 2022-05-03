@@ -1,3 +1,9 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/oiabbreq4s8uaqx9?svg=true)](https://ci.appveyor.com/project/Zicio/layouts)
+
+[Ссылка на GP](https://zicio.github.io/listing/)
+
+[Ссылка на задание](https://github.com/netology-code/ra16-homeworks/tree/master/props/listing)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
