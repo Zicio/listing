@@ -1,5 +1,6 @@
 import classNames from "classnames";
 import PropTypes from "prop-types";
+import "./Item.scss";
 
 function Item(props) {
   const { item } = props;
@@ -13,7 +14,7 @@ function Item(props) {
       default:
         return (
           <p className="item-price">
-            {item.price} {item.currency_code}
+            {item.currency_code} {item.price}
           </p>
         );
     }
@@ -23,20 +24,20 @@ function Item(props) {
     if (item.quantity < 10) {
       return (
         <p className={classNames("item-quantity", "level-low")}>
-          {item.quantity}
+          {item.quantity} left
         </p>
       );
     }
     if (item.quantity > 20) {
       return (
         <p className={classNames("item-quantity", "level-high")}>
-          {item.quantity}
+          {item.quantity} left
         </p>
       );
     }
     return (
       <p className={classNames("item-quantity", "level-medium")}>
-        {item.quantity}
+        {item.quantity} left
       </p>
     );
   };

@@ -1,5 +1,7 @@
-import Item from "./Item";
+import Item from "../Item/Item";
 import PropTypes from "prop-types";
+
+import "./Listing.scss";
 
 function Listing(props) {
   let { items } = props;
